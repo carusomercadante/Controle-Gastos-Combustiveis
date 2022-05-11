@@ -1,0 +1,188 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap');
+
+*,
+input,
+button {
+  font-family: 'Georgia', sans-serif;
+
+}
+
+body {
+  background-image: url("Meu_projeto.jpg");
+}
+
+
+html {
+  font-size: 62.5%;
+  font-family: 'Georgia';
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  outline: 0;
+}
+
+header {
+  padding: 1.6rem;
+  background-color: #124575;
+  margin-bottom: 2.4rem;
+}
+
+header span {
+  font-size: 2.2rem;
+  font-family: 'Georgia';
+  margin: auto;
+  width: auto;
+  color: white;
+  text-decoration: none;
+  font-weight: bold;
+  cursor: pointer;
+}
+
+h3 {
+  color: #124575;
+  text-align: center;
+  font-family: 'Georgia';
+  font-size: 3rem;
+  width: 45%;
+  margin: auto;
+}
+
+form {
+  background-color: #efffe5;
+  width: max-content;
+  margin: auto;
+  margin-top: 1.6rem;
+  padding: 3.2rem;
+  border-radius: 0.4rem;
+}
+
+form .input {
+  display: flex;
+  flex-direction: column;
+  margin-bottom: 3.2rem;
+  border: none;
+
+
+}
+
+form .input label {
+  font-size: 2rem;
+  font-weight: lighter;
+}
+
+form .input input {
+  padding: 0.8rem;
+  border-radius: 0.8rem;
+  font-size: 2.2rem;
+
+}
+
+form div button {
+  width: 100%;
+  font-size: 2rem;
+  padding: 1rem;
+  border-radius: 0.4rem;
+  font-weight: bold;
+  background-color: #1cd1c8;
+  cursor: pointer;
+}
+
+form div button:hover {
+  filter: brightness(0.80);
+}
+
+#tela-resumo {
+  visibility: hidden;
+  position: absolute;
+  top: 0;
+  background-color: rgb(12, 12, 12);
+  width: 100vw;
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  opacity: 0.5;
+}
+
+#calculo,
+#conteudo-registros {
+  visibility: hidden;
+  width: 70%;
+  position: absolute;
+  top: 10%;
+  left: 15%;
+  background-color: #fff;
+  padding: 2.4rem;
+  border-radius: 0.4rem;
+}
+
+#calculo #acoes,
+#conteudo-registros #acoes {
+  width: 80%;
+  margin: auto;
+  margin-top: 3.2rem;
+  display: flex;
+  justify-content: space-around;
+}
+
+#calculo #acoes button,
+#conteudo-registros #acoes button {
+  cursor: pointer;
+  padding: 0.8rem 1.2rem;
+  border: 0;
+  border-radius: 0.4rem;
+  font-size: 1.8rem;
+  font-weight: bold;
+  width: 45%;
+}
+
+#calculo #acoes #salvar {
+  margin-bottom: 0.8rem;
+}
+
+#calculo #acoes #descartar {
+  margin-bottom: 0.8rem;
+}
+
+#calculo #acoes button:hover,
+#conteudo-registros #acoes button:hover {
+  filter: brightness(0.9);
+}
+
+
+table {
+  font-size: 1.6rem;
+  width: 100%;
+}
+
+th,
+td {
+  border-bottom: 0.5px solid #e4e4e4;
+  padding: 4px 16px;
+  text-align: center;
+}
+
+#semcadastro {
+  visibility: hidden;
+  visibility: hidden;
+  width: 70%;
+  position: absolute;
+  top: 45%;
+  left: 15%;
+  background-color: rgb(253, 248, 248);
+  padding: 2.4rem;
+  border-radius: 0.4rem;
+}
+
+#semcadastro p {
+  font-size: 3.2rem;
+  text-align: center;
+}
+
+.excluir-item {
+  cursor: pointer;
+  color: rgb(111, 71, 255);
+}
